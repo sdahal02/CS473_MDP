@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Walmart</string>
+    <string name="walmartlogo">WalmartLogo</string>
+    <string name="electronicText" />
+    <string name="clothingText" />
+    <string name="beautyText" />
+    <string name="foodText" />
+    <string name="Clothings" />
+    <string name="HomeGoods" />
+    <string name="Toys">"Toys "</string>
+</resources>

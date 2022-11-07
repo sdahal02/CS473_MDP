@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShoppingActivity">
+
+
+    <TextView
+        android:id="@+id/loggedInUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="19dp"
+        android:fontFamily="sans-serif"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="262dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="53dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Shop by Categories"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/electronicsImg"
+        android:layout_width="162dp"
+        android:layout_height="152dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="88dp"
+        android:onClick="imgClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/electronics" />
+
+    <ImageView
+        android:id="@+id/clothingsImg"
+        android:layout_width="149dp"
+        android:layout_height="124dp"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="38dp"
+        android:onClick="imgClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/clothings" />
+
+    <ImageView
+        android:id="@+id/cosmeticsImg"
+        android:layout_width="131dp"
+        android:layout_height="157dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="325dp"
+        android:onClick="imgClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cosmeticproducts" />
+
+    <ImageView
+        android:id="@+id/groceryImg"
+        android:layout_width="151dp"
+        android:layout_height="177dp"
+        android:layout_marginStart="222dp"
+        android:layout_marginTop="317dp"
+        android:layout_marginEnd="38dp"
+        android:onClick="imgClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/grocery" />
+
+    <TextView
+        android:id="@+id/electronicsTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="240dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Electronics"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/clothingsTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="75dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Clothings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cosmeticsTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="494dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Cosmetics"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/groceryTxt"
+        android:layout_width="73dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="496dp"
+        android:layout_marginEnd="67dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Groceries"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

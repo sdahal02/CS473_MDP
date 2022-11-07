@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="183dp"
+        android:layout_height="36dp"
+        android:gravity="center"
+        android:text="Kotlin Quiz!"
+        android:textColor="#0F3267"
+        android:textFontWeight="@integer/material_motion_duration_medium_2"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <TextView
+        android:id="@+id/q1"
+        android:layout_width="363dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="84dp"
+        android:fontFamily="sans-serif-black"
+        android:text="1. Which of these is not a Kotlin's feature?"
+        android:textSize="16sp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="108dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="293dp"
+            android:layout_height="54dp"
+            android:text="Free and Open Source"
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="108dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="292dp"
+            android:layout_height="48dp"
+            android:text="Dynamically typed"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="162dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="293dp"
+            android:layout_height="57dp"
+            android:text="Functional and Object-Orineted"
+            tools:layout_editor_absoluteX="43dp"
+            tools:layout_editor_absoluteY="204dp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/q2"
+        android:layout_width="376dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="298dp"
+        android:fontFamily="sans-serif-black"
+        android:text="2. Select valid methods for Null Safety in Kotlin."
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="286dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="342dp"
+        android:text="Elvis Operator (?:)"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="283dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="387dp"
+        android:text="Using a Safe Call Operator (?.)"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="282dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="435dp"
+        android:text="Explicit check for a null "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="116dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginBottom="127dp"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="116dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="129dp"
+        android:text="Reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
