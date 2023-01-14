@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.WelcomeFragment">
+
+
+    <ImageView
+        android:id="@+id/kotlinquizlogo"
+        android:layout_width="187dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="104dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/kotlinquiz"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/startBtn"
+        android:layout_width="237dp"
+        android:layout_height="62dp"
+        android:clickable="true"
+        android:contentDescription="@string/appbar_scrolling_view_behavior"
+        android:focusable="true"
+        android:src="@drawable/startbtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kotlinquizlogo"
+        app:layout_constraintVertical_bias="0.529"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="213dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="304dp"
+        android:text="@string/welcome_text"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

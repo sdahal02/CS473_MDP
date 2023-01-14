@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">KotlinQuiz</string>
+    <string name="_1_questions_list">1. Kotlin Strings are mutable1. Kotlin Strings are mutable1. Kotlin Strings are mutable1. Kotlin Strings are mutable1. Kotlin Strings are mutable1. Kotlin Strings are mutable1. Kotlin Strings are mutable1. Kotlin Strings are mutable1. Kotlin Strings are mutable1. Kotlin Strings are mutable1. Kotlin Strings are mutable1. Kotlin Strings are mutable</string>
+    <string name="_2_questions_list">2. Kotlin data types are object type</string>
+    <string name="true_answer">True</string>
+    <string name="false_answer">False</string>
+    <string name="i_am_not_sure">I am not sure</string>
+    <string name="btn_skip">skip</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">Home</string>
+    <string name="start">GOT IT</string>
+    <string name="welcome_text">Welcome to the Kotlin Quiz App!The app will keep track of your score and provide feedback on your performance.Good luck and have fun!</string>
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="score">0/15</string>
+    <string name="your_score">Score Details</string>
+    <string name="btn_result_analysis">Result Analysis</string>
+    <string name="btn_try_again">Try again</string>
+    <string name="result_analysis">Result Analysis</string>
+    <string name="please_provide_answer_toast_message">Please select at least one answer.</string>
+    <string name="quiz1_explanation"><![CDATA[<b>Explanation:</b> In Kotlin, a singleton class can be created by using the "object" keyword. This creates a singleton object that can be accessed using the object name. ]]></string>
+    <string name="todo">TODO</string>
+</resources>
