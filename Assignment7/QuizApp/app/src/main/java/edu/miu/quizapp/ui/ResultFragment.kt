@@ -19,7 +19,6 @@ class ResultFragment : BaseFragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_result, container, false)
         tvScore = view.findViewById(R.id.tv_score)
         val score = ResultFragmentArgs.fromBundle(requireArguments()).score
@@ -27,7 +26,7 @@ class ResultFragment : BaseFragment() {
         val wrongAnswers = 15 - score
         val finalScore = "$score/15"
         val scoreResult = String.format(
-            "Total Questions: 15\n\nCorrect Answers(Score): %d\n\nWrong Answer: %d\n\nYour Score is: %s",
+            "\nTotal Questions: 15\n\nCorrect Answers(Score): %d\n\nWrong Answer: %d\n\nYour Score is: %s",
             score, wrongAnswers, finalScore
         )
         tvScore.text = scoreResult
